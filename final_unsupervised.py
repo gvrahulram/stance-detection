@@ -10,7 +10,7 @@ pos = 0
 nu = 0
 x = []
 y = []
-#Cleaning the data and pre-processing 
+#data cleaning and pre-processing 
 with open(infile, 'r') as csvfile:
     rows = csv.reader(csvfile)
     for row in rows:
